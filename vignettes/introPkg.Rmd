@@ -1,0 +1,25 @@
+---
+title: "introPkg"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{introPkg}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(my2stpkg)
+```
+
+This is how to use my package::square
+
+```{r}
+ result = square(1:10)
+```
