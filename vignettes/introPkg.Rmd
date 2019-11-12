@@ -21,5 +21,5 @@ library(my2stpkg)
 This is how to use my package::square
 
 ```{r}
- result = square(1:10)
+ result = mySquare(1:10)
 ```

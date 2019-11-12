@@ -11,4 +11,4 @@
 #'@export
 #'
 
-mysquare = function(X) return(X*X)
+mySquare = function(X) return(X*X)
